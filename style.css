@@ -13,6 +13,11 @@
 body {
   font-family: "lato", sans-serif;
   margin: 0;
+  transition: transform 0.4s ease-in;
+}
+
+body.show-nav {
+  transform: translate(200px);
 }
 
 nav {
