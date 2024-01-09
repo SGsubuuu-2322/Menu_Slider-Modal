@@ -13,3 +13,9 @@ openBtn.addEventListener("click", () =>
 closeBtn.addEventListener("click", () =>
   modalContainer.classList.remove("show-modal")
 );
+
+window.addEventListener("click", (e) =>
+  e.target === modalContainer
+    ? modalContainer.classList.remove("show-modal")
+    : false
+);
