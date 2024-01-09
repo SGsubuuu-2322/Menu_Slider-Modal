@@ -119,7 +119,7 @@ button:focus {
   right: 0;
   bottom: 0;
   left: 0;
-  /* display: none; */
+  display: none;
 }
 
 .modal {
@@ -157,4 +157,18 @@ button:focus {
 .modal-form label {
   display: block;
   margin-bottom: 5px;
+}
+
+.modal-form .form-input {
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.cls-btn {
+  background-color: transparent;
+  font-size: 26px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
