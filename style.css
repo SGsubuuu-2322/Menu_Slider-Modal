@@ -127,6 +127,10 @@ button:focus {
   display: none;
 }
 
+.modal-container.show-modal {
+  display: block;
+}
+
 .modal {
   background-color: #fff;
   border-radius: 6px;
